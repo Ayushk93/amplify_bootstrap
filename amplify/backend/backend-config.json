@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"reactboilerplateb1655c9e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
