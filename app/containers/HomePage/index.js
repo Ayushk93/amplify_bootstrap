@@ -7,7 +7,8 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { withAuthenticator } from 'aws-amplify-react';
+// import { withAuthenticator } from 'aws-amplify-react'; // legacy
+import { withAuthenticator } from '@aws-amplify/ui-react'; // latest
 import '@aws-amplify/ui/dist/style.css';
 import messages from './messages';
 
